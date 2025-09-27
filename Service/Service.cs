@@ -6,10 +6,14 @@ namespace Service.Entities
 {
     public class ServiceManegment : IBookMethods
     {
-        List<Book> ServiceBook = new List<Book>();
+        private IBookMethods repo;     //??
+        public ServiceManegment(IBookMethods repository)   //??
+        {
+            repo = repository;    //??
+        }
         void IBookMethods.AddBook(Book book)
         {
-            ServiceBook.Add(book); 
+            repo.AddBook(book);   //?
         }
         Book IBookMethods.GetBookByName(string name)
         {
