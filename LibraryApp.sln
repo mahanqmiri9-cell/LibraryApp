@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36301.6 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain", "Domain\Domain.csproj", "{CD8C544C-AA23-4F67-8FA1-F455A4EC4512}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Service", "Service\Service.csproj", "{EB7B9107-7CCF-419B-A252-20A24D6206B7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LibraryUI", "LibraryUI\LibraryUI.csproj", "{36E49EC6-D669-46CC-A4A6-E75548D58742}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CD8C544C-AA23-4F67-8FA1-F455A4EC4512}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD8C544C-AA23-4F67-8FA1-F455A4EC4512}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD8C544C-AA23-4F67-8FA1-F455A4EC4512}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CD8C544C-AA23-4F67-8FA1-F455A4EC4512}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EB7B9107-7CCF-419B-A252-20A24D6206B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB7B9107-7CCF-419B-A252-20A24D6206B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB7B9107-7CCF-419B-A252-20A24D6206B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB7B9107-7CCF-419B-A252-20A24D6206B7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{36E49EC6-D669-46CC-A4A6-E75548D58742}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{36E49EC6-D669-46CC-A4A6-E75548D58742}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{36E49EC6-D669-46CC-A4A6-E75548D58742}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{36E49EC6-D669-46CC-A4A6-E75548D58742}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D2227584-FABA-4F67-BF8C-A2B8603BE319}
+	EndGlobalSection
+EndGlobal
