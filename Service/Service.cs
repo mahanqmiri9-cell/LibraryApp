@@ -1,27 +1,29 @@
 ﻿using System;
+using Book_Service;
+using Book_Repository;
 using Domain.Entities;
 
 
 namespace Service.Entities
 {
-    public class ServiceManegment : IBookMethods
+    public class BookService : IBookService
     {
-        private IBookMethods repo;     //??
-        public ServiceManegment(IBookMethods repository)   //??
+        private readonly IBookRepository _repo;     //??
+        public BookService(IBookRepository repository)   //??
         {
-            repo = repository;    //??
+            _repo = repository;    //??
         }
-        void IBookMethods.AddBook(Book book)
+        public void Add(Book book)
         {
-            repo.AddBook(book);   //?
+            _repo.Add(book);   //?
         }
-        Book IBookMethods.GetBookByName(string name)
+        public Book GetByName(string name)
         {
-            return ServiceBook.FirstOrDefault(b => b.Name == name); 
+            return _repo.GetByName(name);
         }
-        List<Book> IBookMethods.GetAllBooks(string name)
+        public List<Book> GetAll()
         {
-            return ServiceBook;
+            return _repo.GetAll();
         }
     }
 }

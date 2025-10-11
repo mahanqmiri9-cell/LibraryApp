@@ -11,7 +11,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UI(Console)", "UI(Console)\UI(Console).csproj", "{ECB0D4B3-5FEB-48C4-BBD7-CD05F537A3F5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Storage", "Storage\Storage.csproj", "{45D16269-E906-451F-8214-610C85CE03FD}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Persistance", "Storage\Persistance.csproj", "{45D16269-E906-451F-8214-610C85CE03FD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IBookService", "IBookService\IBookService.csproj", "{9C8751C6-F3F0-48FA-BDCF-6295CFBF80AA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IBookRepository", "IBookiRepository\IBookRepository.csproj", "{A6956AC7-8681-44C8-855A-A76C3B205037}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -35,6 +39,14 @@ Global
 		{45D16269-E906-451F-8214-610C85CE03FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{45D16269-E906-451F-8214-610C85CE03FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{45D16269-E906-451F-8214-610C85CE03FD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9C8751C6-F3F0-48FA-BDCF-6295CFBF80AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C8751C6-F3F0-48FA-BDCF-6295CFBF80AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C8751C6-F3F0-48FA-BDCF-6295CFBF80AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C8751C6-F3F0-48FA-BDCF-6295CFBF80AA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A6956AC7-8681-44C8-855A-A76C3B205037}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A6956AC7-8681-44C8-855A-A76C3B205037}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A6956AC7-8681-44C8-855A-A76C3B205037}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A6956AC7-8681-44C8-855A-A76C3B205037}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

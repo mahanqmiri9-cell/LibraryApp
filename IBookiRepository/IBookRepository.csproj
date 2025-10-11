@@ -8,8 +8,6 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Domain\Domain.csproj" />
-    <ProjectReference Include="..\IBookiRepository\IBookRepository.csproj" />
-    <ProjectReference Include="..\IBookService\IBookService.csproj" />
   </ItemGroup>
 
 </Project>

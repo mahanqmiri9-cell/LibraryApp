@@ -10,15 +10,12 @@
             public string Publication { get; set; }
             public string State { get; set; }
 
-
+        public override string ToString()
+        {
+            return $"Name: {Name}\nAuthor: {Author}\nGenre: {Genre}\nPublication: {Publication}\n";
         }
 
-        public interface IBookMethods
-        {
-             public void AddBook(Book book);
-            public Book GetBookByName(string name);
-            public List<Book> GetAllBooks(string name);
-            
+
         }
 
 }
