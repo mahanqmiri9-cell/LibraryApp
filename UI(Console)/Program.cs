@@ -92,6 +92,7 @@ namespace UI_Console_
                 if (UserInput.ToLower() == "get")
                 {
                     List<Book> books = _bookService.GetAll();
+                    Console.WriteLine($"\nThe list of books:\n{books}\n");
                 }
                 
                 if (UserInput.ToLower() == "exit")
