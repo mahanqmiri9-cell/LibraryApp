@@ -25,5 +25,10 @@ namespace Service.Entities
         {
             return _repo.GetAll();
         }
+
+        public void AddAuthor(Book book)
+        {
+            throw new NotImplementedException();
+        }
     }
 }

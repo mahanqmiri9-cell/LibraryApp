@@ -9,11 +9,17 @@ namespace Persistance
     public class BookRepository : IBookRepository
     {
         public List<Book> MemoryList = new List<Book>();
+        public List<Author> AuthorsList = new List<Author>();
 
         public void Add(Book book)
         {
             MemoryList.Add(book);
             Console.WriteLine(book);
+        }
+
+        public void AddAuthor(Book book)
+        {
+            AuthorsList.Add();
         }
 
         public Book GetByName(string name)
@@ -39,6 +45,11 @@ namespace Persistance
         public List<Book> GetAll()
         {
             return MemoryList;
+        }
+
+        public void AddAuthor(Book book)
+        {
+            throw new NotImplementedException();
         }
     }
 }

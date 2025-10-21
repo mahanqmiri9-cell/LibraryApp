@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using ContainerApp;
+using System.Collections.Generic;
 using Domain.Entities;
 using Book_Service;
 using Service.Entities;
@@ -18,11 +19,8 @@ namespace UI_Console_
 
         static void Main(string[] args)
         {
-            IBookRepository bookRepository = new BookRepository();
-
-            IBookService bookService = new BookService(bookRepository);
-
-            Program program = new Program(bookService);
+            Container container = new Container();
+            Program program = new Program(container.CreatBookService());
             program.Run();
         }
 

@@ -18,4 +18,11 @@
 
         }
 
+        public class Author
+        {
+            public string Name { get; set; }
+            public List<Book> Books { get; set; }
+                //public DateTime Birthday { get; set; }
+                //public string Nationality { get; set; }
+        }
 }
